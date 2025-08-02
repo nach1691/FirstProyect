@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Jersey+15&display=swap');
 /* font-family: "Jersey 15", sans-serif;*/
 body{
+    display: grid;
     font-family: "Jersey 15", sans-serif;
 }
     h1{
@@ -42,12 +43,16 @@ body{
 .header{
     padding: 16px;
 }
-.cards-container ul{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    gap: 24px;
-    flex-wrap: wrap;
-    align-items: center;
+.cards-games{
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-gap: 24px;
 }
-    
+.cards-container{
+    margin: 0 50px;
+}
+@media (max-width:768px) {
+    .cards-games{
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
