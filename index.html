@@ -1,67 +1,131 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <!-- CSS -->
-     <link rel="stylesheet" href="./Styles/Style.css">
-     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <link rel="stylesheet" href="./styles/styles.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr"
+      crossorigin="anonymous"
+    />
     <title>Arcade Games 8090</title>
   </head>
   <body>
-
     <header>
-
-      <img src="https://via.placeholder.com/150x150" alt="Imagen de ejemplo">
-        <nav class="navbar">
-          <ul>
-            <li>
-              <a class="nav-option" href="#">Home</a>
-            </li>
-            <li>
-              <a class="nav-option" href="./Pages/games.html">Games</a>
-            </li>
-            <li>
-              <a class="nav-option" href="./Pages/trending.html">Trending</a>
-            </li>
-            <li>
-              <a class="nav-option" href="./Pages/about-us.html">About us</a>
-            </li>
-            <li>
-              <a class="nav-option"a href="./Pages/contact.html">Contact</a>
-            </li>
-          </ul>
-        </nav>
-
+      <img src="https://via.placeholder.com/150x150" alt="Imagen de ejemplo" />
+      <nav class="navbar bg-body-tertiary fixed-top">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Arcade 8090</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="offcanvas"
+            data-bs-target="#offcanvasNavbar"
+            aria-controls="offcanvasNavbar"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="offcanvas offcanvas-end"
+            tabindex="-1"
+            id="offcanvasNavbar"
+            aria-labelledby="offcanvasNavbarLabel"
+          >
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasNavbarLabel">
+                Arcarde 8090
+              </h5>
+              <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="offcanvas"
+                aria-label="Close"
+              ></button>
+            </div>
+            <div class="offcanvas-body">
+              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#"
+                    >Home</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./pages/games.html">Games</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./pages/trending.html">Trending</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./pages/contact.html">Contact</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./pages/about-us.html">About us</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
     </header>
 
-
-    <Main class="g-5">
-    
+    <main class="g-5">
       <h1>Welcome Arcade Games 8090</h1>
-      <p class="gx-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus obcaecati labore alias? Repellat eum ducimus dolores dolorum temporibus sapiente omnis reiciendis fuga optio, dignissimos delectus autem sit excepturi nemo aperiam.
-      Eos, itaque. Corporis, nam excepturi facilis ipsam quisquam numquam iure, dolorem obcaecati totam cupiditate assumenda alias ad repudiandae pariatur facere porro! Recusandae labore nostrum eos id cum ipsum, dicta unde!
-      Tenetur reprehenderit animi perferendis cumque aperiam error sunt molestias, dicta nam minima non. Ducimus quibusdam aperiam velit. Iure blanditiis laudantium quos illum. Laboriosam voluptatem quibusdam sed modi harum labore non?
-      Quam est ullam repudiandae dolor amet expedita, ea ipsa placeat optio fugit labore nam pariatur eveniet nostrum explicabo quae modi eius dolores similique a minus impedit dolorem molestias fuga! Totam!
-      Natus alias fugit fuga voluptatem a, autem quae cupiditate culpa minima dignissimos facere veniam ex accusamus doloribus iusto commodi ducimus cumque maxime, aliquid sed facilis. Molestias maiores possimus ducimus quas!</p>
-      <img src="./assets/descarga.jfif" alt="">
+      <p class="gx-5">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus
+        obcaecati labore alias? Repellat eum ducimus dolores dolorum temporibus
+        sapiente omnis reiciendis fuga optio, dignissimos delectus autem sit
+        excepturi nemo aperiam. Eos, itaque. Corporis, nam excepturi facilis
+        ipsam quisquam numquam iure, dolorem obcaecati totam cupiditate
+        assumenda alias ad repudiandae pariatur facere porro! Recusandae labore
+        nostrum eos id cum ipsum, dicta unde! Tenetur reprehenderit animi
+        perferendis cumque aperiam error sunt molestias, dicta nam minima non.
+        Ducimus quibusdam aperiam velit. Iure blanditiis laudantium quos illum.
+        Laboriosam voluptatem quibusdam sed modi harum labore non? Quam est
+        ullam repudiandae dolor amet expedita, ea ipsa placeat optio fugit
+        labore nam pariatur eveniet nostrum explicabo quae modi eius dolores
+        similique a minus impedit dolorem molestias fuga! Totam! Natus alias
+        fugit fuga voluptatem a, autem quae cupiditate culpa minima dignissimos
+        facere veniam ex accusamus doloribus iusto commodi ducimus cumque
+        maxime, aliquid sed facilis. Molestias maiores possimus ducimus quas!
+      </p>
+      <img src="./assets/descarga.jfif" alt="" />
 
       <h2>History of arcade games</h2>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum et possimus perspiciatis, temporibus voluptate, voluptatibus earum, debitis magni unde accusamus iusto iure esse atque inventore dicta necessitatibus. Sapiente, perspiciatis autem.
-      Doloremque quasi ipsum accusamus, quo voluptas rem maxime inventore dolorem aperiam aliquam harum? Voluptas atque, delectus consectetur quidem ducimus hic voluptatum optio cum animi corporis dolorem, quo assumenda maxime tempora.
-      Adipisci temporibus corporis dolore, libero eum odit perspiciatis error, fuga quas placeat voluptas laborum accusantium quo quis quibusdam commodi nemo, cum eos ab harum! Eos maiores quos quasi consequuntur. Animi.
-      Hic ex necessitatibus quasi quos vitae veritatis aliquam assumenda ipsam nihil placeat. Voluptates praesentium, vitae a placeat itaque necessitatibus rem magnam officia adipisci consequuntur totam. Quibusdam ullam vel vero eos?
-      Repellendus in id molestias accusantium neque aspernatur provident cumque nobis vel rerum accusamus commodi harum, dolorum iste eius possimus officiis esse natus! Consequuntur, in consequatur atque amet quaerat perspiciatis ipsa?</p>
-
-    </Main>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum et
+        possimus perspiciatis, temporibus voluptate, voluptatibus earum, debitis
+        magni unde accusamus iusto iure esse atque inventore dicta
+        necessitatibus. Sapiente, perspiciatis autem. Doloremque quasi ipsum
+        accusamus, quo voluptas rem maxime inventore dolorem aperiam aliquam
+        harum? Voluptas atque, delectus consectetur quidem ducimus hic
+        voluptatum optio cum animi corporis dolorem, quo assumenda maxime
+        tempora. Adipisci temporibus corporis dolore, libero eum odit
+        perspiciatis error, fuga quas placeat voluptas laborum accusantium quo
+        quis quibusdam commodi nemo, cum eos ab harum! Eos maiores quos quasi
+        consequuntur. Animi. Hic ex necessitatibus quasi quos vitae veritatis
+        aliquam assumenda ipsam nihil placeat. Voluptates praesentium, vitae a
+        placeat itaque necessitatibus rem magnam officia adipisci consequuntur
+        totam. Quibusdam ullam vel vero eos? Repellendus in id molestias
+        accusantium neque aspernatur provident cumque nobis vel rerum accusamus
+        commodi harum, dolorum iste eius possimus officiis esse natus!
+        Consequuntur, in consequatur atque amet quaerat perspiciatis ipsa?
+      </p>
+    </main>
 
     <footer>
-
-      <p class="footer">© 2024 Arcade Games 8090
-      Todos los derechos reservados</p>
-
+      <p class="footer">
+        © 2024 Arcade Games 8090 Todos los derechos reservados
+      </p>
     </footer>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
