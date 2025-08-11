@@ -1,56 +1,79 @@
 @import url("https://fonts.googleapis.com/css2?family=Jersey+15&display=swap");
-/* font-family: "Jersey 15", sans-serif;*/
-body {
-  display: grid;
-  font-family: "Jersey 15", sans-serif;
-}
-h1 {
-  margin: 16px;
-  padding: 16px;
-  color: red;
-}
-p {
-  color: green;
-}
-.footer {
-  color: black;
-}
-li {
-  list-style-type: none;
-}
-.nav-option {
-  color: black;
-  text-decoration: none;
-}
+
 * {
   margin: 0;
   padding: 0;
 }
+
+body {
+  font-family: "Jersey 15", sans-serif;
+  display: grid;
+  background-color: black;
+  color: white;
+}
+
+h1 {
+  margin: 16px;
+  padding: 16px;
+  color: rgb(255, 0, 0);
+  text-align: center;
+}
+
+p {
+  margin: 16px;
+  padding: 16px;
+  color: rgb(255, 255, 255);
+}
+
+.footer {
+  color: black;
+}
+
+li {
+  list-style-type: none;
+}
+
+.nav-option {
+  color: black;
+  text-decoration: none;
+}
+
 .logo-container {
   width: 80px;
 }
+
 .navbar {
   display: flex;
   justify-content: space-between;
 }
+
 .navbar ul {
   display: flex;
   justify-content: center;
   gap: 24px;
 }
+
 .header {
   padding: 16px;
 }
+
 .cards-games {
   display: grid;
   grid-template-columns: repeat(8, 1fr);
   grid-gap: 24px;
 }
+
 .cards-container {
   margin: 0 50px;
 }
+
 @media (max-width: 768px) {
   .cards-games {
     grid-template-columns: repeat(3, 1fr);
   }
+}
+ul {
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  grid-gap: 24px;
 }
