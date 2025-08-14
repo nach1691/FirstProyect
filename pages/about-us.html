@@ -1,8 +1,13 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>About Us — Arcade Games</title>
+    <link rel="icon" type="image/x-icon" href="../social/favicon.ico">
+    <meta name="description" content="Learn about Arcade Games: a team of retro gaming enthusiasts bringing the magic of classic arcades to modern players." />
+
     <!-- CSS -->
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css"
@@ -10,14 +15,14 @@
       integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr"
       crossorigin="anonymous"
     />
+    <!-- OJO: para about-us.html esta ruta normalmente es correcta -->
     <link rel="stylesheet" href="../styles/styles.css" />
-    <title>Your Arcade Games Source</title>
   </head>
   <body>
     <header>
       <nav class="navbar bg-body-tertiary sticky-top">
         <div class="container-fluid">
-          <a class="navbar-brand" href="#">Arcade Games</a>
+          <a class="navbar-brand" href="../index.html">Arcade Games</a>
           <button
             class="navbar-toggler"
             type="button"
@@ -35,38 +40,16 @@
             aria-labelledby="offcanvasNavbarLabel"
           >
             <div class="offcanvas-header">
-              <h5 class="offcanvas-title" id="offcanvasNavbarLabel">
-                Arcarde 8090
-              </h5>
-              <button
-                type="button"
-                class="btn-close"
-                data-bs-dismiss="offcanvas"
-                aria-label="Close"
-              ></button>
+              <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Arcade 8090</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
             </div>
             <div class="offcanvas-body">
               <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-                <li class="nav-item">
-                  <a
-                    class="nav-link active"
-                    aria-current="page"
-                    href="../index.html"
-                    >Home</a
-                  >
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="./games.html">Games</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="../trending.html">Trending</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="./contact.html">Contact</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">About us</a>
-                </li>
+                <li class="nav-item"><a class="nav-link" href="../index.html">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="./games.html">Games</a></li>
+                <li class="nav-item"><a class="nav-link" href="./trending.html">Trending</a></li>
+                <li class="nav-item"><a class="nav-link" href="./contact.html">Contact</a></li>
+                <li class="nav-item"><a class="nav-link active" aria-current="page" href="#">About us</a></li>
               </ul>
             </div>
           </div>
@@ -74,30 +57,39 @@
       </nav>
     </header>
 
-    <main>
+    <main class="about-us">
       <h1>Who we are</h1>
       <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa suscipit,
-        sint quae velit repellendus itaque doloribus cumque, officia assumenda
-        mollitia libero natus. Fugiat facilis architecto et eveniet laudantium,
-        ducimus quia!
+        We are a passionate team of retro gaming enthusiasts dedicated to
+        bringing the magic of the arcade era back to life. From timeless
+        classics to hidden gems, we celebrate the vibrant history of video games
+        with a modern twist. Our community is built for players who want to
+        relive the excitement, share their memories, and discover new favorites
+        inspired by the golden age of gaming.
       </p>
-      <h1>Our mision</h1>
+
+      <h1>Our mission</h1>
       <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque a, porro
-        nam quis voluptates commodi, quisquam repellendus beatae sint labore
-        voluptatem! Magnam fuga dolorem similique fugit commodi beatae facilis
-        vero? Natus, doloribus iusto suscipit dicta voluptatum officiis eveniet
-        similique autem, ut dolor itaque voluptate vitae ad. Impedit eos
-        excepturi deserunt eum inventore aliquid et hic minus sapiente,
-        distinctio, ex voluptatum.
+        Our mission is to preserve the spirit of classic arcade gaming while
+        making it accessible to everyone, everywhere. We strive to create an
+        immersive space where nostalgia meets innovation, blending authentic
+        experiences with fresh ideas. Through events, curated content, and a
+        growing community, we aim to keep the pixelated heart of gaming beating
+        for generations to come.
       </p>
-      <img src="https://via.placeholder.com/1800x600" alt="Imagen de ejemplo" />
+
+      <img
+        src="../social/about-us.png"
+        alt="Arcade Games team illustration in retro pixel art style with red, white, and black tones"
+        loading="lazy"
+        decoding="async"
+      />
     </main>
 
-<footer>
-  <p>© 2024 Arcade Games Todos los derechos reservados</p>
-</footer>
+    <footer class="text-center py-3">
+      <p>© 2025 Arcade Games All Rights Reserved</p>
+    </footer>
+
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
