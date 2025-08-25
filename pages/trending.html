@@ -3,12 +3,17 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-
-    <!-- SEO -->
     <title>Trending Arcade Games — Hot Picks & New Releases</title>
-    <link rel="icon" type="image/x-icon" href="../social/favicon.ico">
-    <meta name="description" content="See what’s trending now in arcade gaming: our hottest picks and new retro-style releases, with rotating highlights and cover art." />
-    <meta name="keywords" content="trending arcade games, new arcade releases, retro gaming, pixel art, space shooter, action platformer, arcade covers" />
+    <link rel="icon" type="image/x-icon" href="../social/favicon.ico" />
+    <link rel="stylesheet" href="../styles/animate.min.css" />
+    <meta
+      name="description"
+      content="See what’s trending now in arcade gaming: our hottest picks and new retro-style releases, with rotating highlights and cover art."
+    />
+    <meta
+      name="keywords"
+      content="trending arcade games, new arcade releases, retro gaming, pixel art, space shooter, action platformer, arcade covers"
+    />
 
     <!-- CSS -->
     <link
@@ -23,7 +28,9 @@
     <header>
       <nav class="navbar bg-body-tertiary sticky-top" aria-label="Primary">
         <div class="container-fluid">
-          <a class="navbar-brand" href="../index.html" title="Arcade Games Home">Arcade Games</a>
+          <a class="navbar-brand" href="../index.html" title="Arcade Games Home"
+            >Arcade Games</a
+          >
           <button
             class="navbar-toggler"
             type="button"
@@ -41,16 +48,35 @@
             aria-labelledby="offcanvasNavbarLabel"
           >
             <div class="offcanvas-header">
-              <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Arcade 8090</h5>
-              <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+              <h5 class="offcanvas-title" id="offcanvasNavbarLabel">
+                Arcade 8090
+              </h5>
+              <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="offcanvas"
+                aria-label="Close"
+              ></button>
             </div>
             <div class="offcanvas-body">
               <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-                <li class="nav-item"><a class="nav-link" href="../index.html">Home</a></li>
-                <li class="nav-item"><a class="nav-link" href="./games.html">Games</a></li>
-                <li class="nav-item"><a class="nav-link active" aria-current="page" href="#">Trending</a></li>
-                <li class="nav-item"><a class="nav-link" href="./contact.html">Contact</a></li>
-                <li class="nav-item"><a class="nav-link" href="./about-us.html">About us</a></li>
+                <li class="nav-item">
+                  <a class="nav-link" href="../index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./games.html">Games</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#"
+                    >Trending</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./contact.html">Contact</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./about-us.html">About us</a>
+                </li>
               </ul>
             </div>
           </div>
@@ -59,9 +85,15 @@
     </header>
 
     <main>
-      <h1>We are playing these games right now</h1>
-
-      <div id="carouselExample" class="carousel slide" data-bs-ride="carousel" aria-label="Trending games carousel">
+      <h1 class="animate__animated animate__heartBeat animate__infinite">
+        We are playing these games right now
+      </h1>
+      <div
+        id="carouselExample"
+        class="carousel slide"
+        data-bs-ride="carousel"
+        aria-label="Trending games carousel"
+      >
         <div class="carousel-inner">
           <div class="carousel-item active">
             <img
@@ -91,15 +123,203 @@
             />
           </div>
         </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev" aria-label="Previous slide">
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExample"
+          data-bs-slide="prev"
+          aria-label="Previous slide"
+        >
           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
           <span class="visually-hidden">Previous</span>
         </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next" aria-label="Next slide">
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExample"
+          data-bs-slide="next"
+          aria-label="Next slide"
+        >
           <span class="carousel-control-next-icon" aria-hidden="true"></span>
           <span class="visually-hidden">Next</span>
         </button>
       </div>
+
+      <div
+        id="newsTicker"
+        class="carousel slide"
+        data-bs-ride="carousel"
+        data-bs-interval="9000"
+      >
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div
+              class="d-flex align-items-center justify-content-center bg-dark text-light px-3 py-2"
+            >
+              <span class="badge bg-danger me-2">Breaking</span>
+              <a
+                class="link-light text-decoration-none text-truncate text-center"
+                href="#"
+                style="max-width: 100%"
+                >“Moon Patrol” remake announced for 2026</a
+              >
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div
+              class="d-flex align-items-center justify-content-center bg-dark text-light px-3 py-2"
+            >
+              <span class="badge bg-info me-2">Industry</span>
+              <a
+                class="link-light text-decoration-none text-truncate text-center"
+                href="#"
+                style="max-width: 100%"
+                >New arcade “Cosmo Zone” enters pre-order</a
+              >
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div
+              class="d-flex align-items-center justify-content-center bg-dark text-light px-3 py-2"
+            >
+              <span class="badge bg-success me-2">Events</span>
+              <a
+                class="link-light text-decoration-none text-truncate text-center"
+                href="#"
+                style="max-width: 100%"
+                >Retro Games Expo Latam confirms dates</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <section class="container my-5">
+        <h2 class="text-center mb-3">Top trending picks</h2>
+
+        <div class="d-flex flex-wrap gap-2 justify-content-center mb-4">
+          <button class="btn btn-outline-light active" data-filter-genre="">
+            All
+          </button>
+          <button class="btn btn-outline-light" data-filter-genre="Shooter">
+            Shooter
+          </button>
+          <button class="btn btn-outline-light" data-filter-genre="RPG">
+            RPG
+          </button>
+          <button class="btn btn-outline-light" data-filter-genre="Adventure">
+            Adventure
+          </button>
+          <button class="btn btn-outline-light" data-filter-genre="Space">
+            Space
+          </button>
+        </div>
+
+        <ul class="cards-games" id="trendingList">
+          <li
+            class="card bg-dark text-light p-2"
+            data-genre="Space"
+            data-popular="87"
+            data-year="2025"
+            data-name="Galactic War"
+          >
+            <img
+              class="card-img-top"
+              src="../games cards/Alien Planet.PNG"
+              alt="Alien Planet"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Alien Planet</h5>
+              <span class="badge bg-warning text-dark">Space</span>
+            </div>
+          </li>
+          <li
+            class="card bg-dark text-light p-2"
+            data-genre="Adventure"
+            data-popular="87"
+            data-year="2025"
+            data-name="Young Hero"
+          >
+            <img
+              class="card-img-top"
+              src="../games cards/city bike.PNG"
+              alt="City Bike"
+            />
+            <div class="card-body">
+              <h5 class="card-title">City Bike</h5>
+              <span class="badge bg-warning text-dark">Adventure</span>
+            </div>
+          </li>
+          <li
+            class="card bg-dark text-light p-2"
+            data-genre="Shooter"
+            data-popular="87"
+            data-year="2025"
+            data-name="Cosmo Zone"
+          >
+            <img
+              class="card-img-top"
+              src="../games cards/cosmo zone.PNG"
+              alt="Cosmo Zone"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Cosmo Zone</h5>
+              <span class="badge bg-warning text-dark">Shooter</span>
+            </div>
+          </li>
+          <li
+            class="card bg-dark text-light p-2"
+            data-genre="RPG"
+            data-popular="87"
+            data-year="2025"
+            data-name="Drakospell"
+          >
+            <img
+              class="card-img-top"
+              src="../games cards/drakospell.PNG"
+              alt="Drakospell"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Drakospell</h5>
+              <span class="badge bg-warning text-dark">RPG</span>
+            </div>
+          </li>
+          <li
+            class="card bg-dark text-light p-2"
+            data-genre="Shooter"
+            data-popular="87"
+            data-year="2025"
+            data-name="Forge of Doom"
+          >
+            <img
+              class="card-img-top"
+              src="../games cards/forge of doom.PNG"
+              alt="Forge of Doom"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Forge of Doom</h5>
+              <span class="badge bg-warning text-dark">Shooter</span>
+            </div>
+          </li>
+          <li
+            class="card bg-dark text-light p-2"
+            data-genre="Space"
+            data-popular="87"
+            data-year="2025"
+            data-name="Galactic War"
+          >
+            <img
+              class="card-img-top"
+              src="../games cards/galactic war.PNG"
+              alt="Galactic War"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Galactic War</h5>
+              <span class="badge bg-warning text-dark">Space</span>
+            </div>
+          </li>
+        </ul>
+      </section>
     </main>
 
     <footer>

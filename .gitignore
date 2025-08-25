@@ -1,0 +1,8 @@
+node_modules/
+
+*.map
+
+styles/animate.min.css
+
+.DS_Store
+Thumbs.db
